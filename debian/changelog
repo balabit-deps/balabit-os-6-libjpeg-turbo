@@ -1,3 +1,11 @@
+libjpeg-turbo (1.4.2-0ubuntu3.1) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: division by zero via BMP image
+    - debian/patches/CVE-2018-1152.patch: add size check in rdbmp.c.
+    - CVE-2018-1152
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Thu, 05 Jul 2018 15:30:37 -0400
+
 libjpeg-turbo (1.4.2-0ubuntu3) xenial; urgency=medium
 
   * libjpeg8-turbo-dev: Install an libjpeg pkgconfig file.
